@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-color: #333333;
+  box-sizing: border-box;
+}
+
+.apresentacao{
+  margin: 6% 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+  display: flex;
+  flex-direction: column;
+  width: 616px;
+  gap: 16px;
+}
+
+.apresentacao__conteudo__titulo{
+  font-family: Poppins;
+  font-size: 36px;
+  color: bisque;
+}
+
+.apresentacao__conteudo__texto{
+  font-family: Poppins;
+  font-size: 24px;
+  color: bisque;
+}
+
+.apresentacao__links{
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao__links__link1, .apresentacao__links__link2, .apresentacao__links__link3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  border: 2px solid #22D4FD;
+  border-color: #22D4FD;
+  font-family: Poppins;
+  font-weight: 500;
+  color:bisque;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 140px;
+}
+
+.apresentacao__conteudo__redes__sociais{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #22D4FD;
+}
+
+.apresentacao__links__link1{
+  margin-bottom: 8px;
+}
+
+.apresentacao__links__link2{
+  margin-bottom: 8px;
+}
+
+.rede__social{
+  padding-right: 8px;
+}
+
+.titulo__destaque{
+  color:#22D4FD;
+}
+
+#foto{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
