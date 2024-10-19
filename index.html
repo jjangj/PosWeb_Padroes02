@@ -3,26 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 1</title>
+    <title>Jenifer Jang</title>
     <link rel="stylesheet" href="Style/style.css">
   </head>
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">Transforme sua ideia em realidade <strong class="titulo__destaque">com um design incrível</strong></h1>
         <p class="apresentacao__conteudo__texto">Oi, sou Jenifer Jang, UX/UI Designer especialista em Figma. Estou aqui para ajudar pequenos negócios a tirarem suas ideias do papel. Vamos criar algo incrível juntos?</p>
-        <p class="apresentacao__conteudo__redes__sociais">Acesse minhas redes:</p>
+        
         <div class="apresentacao__links">
-          <a class="apresentacao__links__link1" href="https://instagram.com/jeniferjang"">
+          <p class="apresentacao__conteudo__redes__sociais">Acesse minhas redes:</p>
+          <a class="apresentacao__links__link" id="link1" href="https://instagram.com/jeniferjang"">
            <img src="Assets\instagram.png" class="rede__social">
            Instagram
           </a>
-          <a class="apresentacao__links__link2" href="https://github.com/jjjang">
+          <a class="apresentacao__links__link" id="link2" href="https://github.com/jjjang">
             <img src="Assets\github.png" class="rede__social">
             Github
           </a>
-          <a class="apresentacao__links__link3" href="https://github.com/jjjang">
+          <a class="apresentacao__links__link" id="link3" href="https://github.com/jjjang">
             <img src="Assets\linkedin.png" class="rede__social">
             LinkedIn
           </a>
@@ -31,4 +37,7 @@
       <img src="Assets\jj.jpeg" alt="Foto de JJ" id="foto">
     </main>
   </body>
+  <footer class="rodape">
+    <p>Desenvolvido por Jenifer Jang</p>
+  </footer>
 </html>
